@@ -1,0 +1,13 @@
+﻿author: SwearWord
+database: false
+description: Ranks players up when they right click a sign.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: org.blockface.kickidle.KickIdle
+name: KickIdle
+startup: postworld
+url: http://blockface.org/
+version: 0.1
+permissions:
+    kickidle.exempt:
+        description: Prevents player from being kicked.
+        default: false
